@@ -88,3 +88,7 @@ main {
 	object-fit: cover;
 	display: block;
 }
+
+@media screen and (max-width: 1180px){
+	
+}
