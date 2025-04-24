@@ -1,5 +1,15 @@
 /*The visual styles like color, font styles etc can be changed. What is there is meerly to tell the difference between different elements*/
 
+/* Forma font file */
+@font-face {
+    src: url("fonts/FormaDJRVariable[opsz\,slnt\,wdth\,wght]-Edu.woff") format("woff2"),
+         url("fonts/FormaDJRVariable[opsz\,slnt\,wdth\,wght]-Edu.woff2") format("woff2");
+        font-family: 'Forma';
+        font-style: normal;
+        font-weight: 100 900;
+        }
+
+
 /* CSS Reset */
 * {
 	margin: 0;
@@ -10,7 +20,7 @@
 main {
 	width: 100%;
 	height: fit-content;
-	background-color: blue;
+	background-color: rgb(250, 60, 2);
 	/* background-image: url();  Place the background illustration here*/
 	display: grid;
 	grid-template-columns: 1fr, 6;
@@ -62,7 +72,11 @@ main {
 	grid-row: 6;
 }
 
+
+
+
 .name {
+	font-family: "Forma", sans-serif;
 	font-size: 1.8rem;
 	margin-bottom: 10px;
 }
