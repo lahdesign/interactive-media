@@ -112,6 +112,17 @@ main {
 	font-size: 1rem;
 	margin-right: 1.5rem;
 	margin-bottom: 1rem;
+	font-family: "Forma", sans-serif;
+	color: white;
+	background-color: rgb(250, 84, 0);
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+.button:hover{
+	background-color: rgb(2, 6, 120);
+	color: white;
 }
 
 .img-container {
