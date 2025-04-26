@@ -141,3 +141,18 @@ main {
 @media screen and (max-width: 1180px){
 	
 }
+@media screen and (max-width: 800px) {
+	.website-container {
+	  width: 90%;
+	  margin: 5% auto;
+	  padding: 20px;
+	}
+  
+	.button {
+	  margin-right: 0;
+	  margin-bottom: 1rem;
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  }
